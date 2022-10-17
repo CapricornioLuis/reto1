@@ -1,0 +1,245 @@
+/*global*/
+/*Este es header*/
+
+.wrap{
+    margin: 20PX
+}
+
+.header{
+    background-color: #00AF1C;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    border-radius: 20px;
+    align-items: center;
+    position:fixed;
+    width: 95.5%;
+    top: 0;
+    
+    
+}
+.header ul{
+    display: flex;
+}
+
+
+.header li{
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.header nav a{
+    font-size: 15px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.logo{
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Section Home Servicios portafolio*/
+
+.home h2{
+    color: #3B06D2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    z-index: 1;
+    margin-top: 9rem;
+
+ 
+
+}
+
+.home p{
+    margin: 30px;
+}
+
+.home div{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content:center;
+  }
+
+  .home div img{ 
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+
+
+  /*Section Servicios */
+
+  .servicios h2{
+    color: #D206B2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+  }
+
+  .servicios p{
+    margin: 30px;
+  }
+
+  .servicios div{
+        display: flex;
+         flex-wrap: wrap;
+        justify-content:center;
+  }
+
+  .servicios div img{
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+
+  /* Seccion portafolio*/
+
+    .portafolio h2{
+    color: #AAD206;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+  }
+
+
+.portafolio p{
+  margin: 30px;
+}
+
+.portafolio p{
+    margin: 30px;
+  }
+
+  .portafolio div{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content:center;
+}
+
+.portafolio div img{
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+
+  /* Seccion lista de Servicios */
+
+  .servicios ul li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .servicio_uno{
+    color: #FF0000;
+ }
+
+ .servicio_dos{
+    color: #1400FF
+ }
+
+ .servicio_tres{
+    color:#D79B00
+ }
+
+ .servicio_cuatro{
+    color: #03B2B2
+ }
+
+ /* Seccion Lista de Portafolio */
+
+ .portafolio ul li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serviciouno{
+color: #AE8800;
+}
+
+.serviciodos{
+    color:#AE280B ;
+}
+
+.serviciotres{
+    color:#060564 ;
+}
+
+.serviciocuatro{
+    color: #637300;
+}
+
+/*Seccion de contacto */
+
+.contacto h2{
+    color: #06D2C6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+
+/*Seccion de cajas */
+
+.a {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  .b {
+    width: 100%;
+    padding: 120px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .contacto button {
+    display: flex;
+    margin: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid #4caf50;
+  }
+  
+  .contacto a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #00af1c;
+  }
+
+  /* Seccion footer*/
+
+  .footer {
+    background-color: #00af1c;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer ul {
+    display: flex;
+  }
+  
+  .footer li {
+    margin-left: 1rem;
+    list-style: none;
+  }
+  
+  .footer nav li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
